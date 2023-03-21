@@ -1,0 +1,184 @@
+/*
+Author: Brodie Wallace
+Date: 3/20
+File Name: styles.css
+*/
+
+/* CSS Reset */
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/*Header */
+.header img {
+    float: left;
+    width: 185px;
+    height: 185px;
+    padding-right: 1.5em;
+}
+
+h1 {
+    background-color: lightgray;
+    background-size: contain;
+    font-size: 5em;
+    font-family: sans-serif;
+    color: #006a4e;
+    padding: .1em;
+}
+
+/* Nav */
+nav {
+    background-color: #006A4E;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    color: lightgray;
+}
+
+nav li {
+    display: contents;
+    font-size: 2em;
+    border: 3px solid;
+    border-color: lightgray;
+}
+
+nav li a {
+    display: inline-table;
+    color: lightgray;
+    padding: 0.2em;
+    text-decoration: none;
+    font-family: sans-serif
+}
+
+/* Main desktop */
+main {
+    padding: 2%;
+    overflow: auto;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#desktop img {
+    height: 20em;
+    border: 5px solid;
+    border-color: #006a4e;
+
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+#quotedesktop {
+    font-variant: small-caps
+}
+
+/* About */
+
+.Brenden img {
+    float: left;
+    height: 125px;
+    padding-right: 2em;
+}
+
+.Brenden {
+    text-align: left;
+    padding-bottom: .5em;
+}
+
+.Jarrot img {
+    float: left;
+    height: 125px;
+    padding-right: 2em;
+}
+
+.Jarrot {
+    text-align: left;
+}
+
+.Carson img {
+    float: left;
+    height: 125px;
+    padding-right: 2em;
+}
+
+.Carson {
+    text-align: left;
+    padding-bottom: .5em;
+}
+
+.Brodie img {
+    float: left;
+    height: 125px;
+    padding-right: 2em;
+}
+
+.Brodie {
+    text-align: left;
+}
+
+.Sal img {
+    float: left;
+    height: 125px;
+    padding-right: 2em;
+}
+
+.Sal {
+    text-align: left;
+}
+
+.Jackson img {
+    float: left;
+    height: 125px;
+    padding-right: 2em;
+}
+
+.Jackson {
+    text-align: left;
+}
+
+.Robbie img {
+    float: left;
+    height: 125px;
+    padding-right: 2em;
+}
+
+.Robbie {
+    text-align: left;
+}
+
+/* Contact Desktop */
+.emailsdesktop {
+    text-align: start;
+}
+
+.emailsdesktop img {
+    float: right;
+    height: 300px;
+    padding-right: 9em;
+}
+
+/* Hide Mobile Viewport */
+.mobile {
+    display: none;
+}
+
+
+/* footer */
+footer {
+    text-align: center;
+    font-size: 1em;
+    clear: left;
+    background-color: lightgray;
+}
